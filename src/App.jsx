@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './Pages/HomePage/Home';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
@@ -8,8 +8,8 @@ import Hackathon from './Pages/Hackathon/Hackathon';
 import Contact from './Pages/Contact-Us/Contact';
 import AboutUs from './Pages/About-Us/AboutUs';
 import FAQs from './Pages/FAQ/FAQs';
-import PrivacyPolicy from './Pages/Privacy-Policy & Terms/PrivacyPolicy';
-import Terms from './Pages/Privacy-Policy & Terms/Terms';
+import PrivacyPolicy from './Pages/Privacy-Policy_and_Terms/PrivacyPolicy';
+import Terms from './Pages/Privacy-Policy_and_Terms/Terms';
 import ScrollToTop from './Components/ScrollToTop';
 import NotFound from './Pages/Not-Found/NotFound';
 const App = () => {
