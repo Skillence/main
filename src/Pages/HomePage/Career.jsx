@@ -2,6 +2,7 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom';
 
 const Career = () => {
+  const interviewLink="https://forms.gle/gQniFX8h7fiCMdXB6"
   const navigate=useNavigate();
   return (
     <div className="home-pricing">
@@ -9,7 +10,7 @@ const Career = () => {
               <div className="pricing-max-width thq-section-max-width">
                 <div className="pricing-section-title">
                   <span className="pricing-text thq-body-small">
-                    Choose the perfect{' '}
+                    Choose the perfect{' '} 
                     <b>
                        CAREER {' '}
                       </b>
@@ -230,7 +231,9 @@ const Career = () => {
                         </div>
                       </div>
                     </div>
-                    <button className="pricing-button06 thq-button-animated thq-button-filled">
+                    <button
+                    onClick={()=>window.open(interviewLink,"_blank")}
+                    className="pricing-button06 thq-button-animated thq-button-filled">
                       <span className="thq-body-small">Apply</span>
                     </button>
                   </div>
